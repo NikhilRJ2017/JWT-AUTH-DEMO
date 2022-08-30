@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>JWT Auth Demo | Login</title>
+</head>
+<body>
+
+    <h1>JWT AUTH DEMO</h1>
+
+    <div>
+        <!-- TODO: Login -->
+        <form action="/auth/login" method="post">
+            <fieldset>
+                <legend>Login</legend>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <!-- Password -->
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <button type="submit">Login</button>
+
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div>
+        <h4>Not a user? <a href="./index.html">Register</a></h4>
+    </div>
+    
+</body>
+</html>
